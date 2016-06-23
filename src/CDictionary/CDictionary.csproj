@@ -60,22 +60,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Business\Aggregate\Aggregate.cs" />
+    <Compile Include="Business\Aggregate\CDictIdValue.cs" />
+    <Compile Include="Business\DBContext\DBContextCDictionary.cs" />
+    <Compile Include="Business\Interface\CDictIdValue.cs" />
+    <Compile Include="Business\Rule\CDictIdValue.cs" />
+    <Compile Include="Model\Entity\CDictIdValue.cs" />
+    <Compile Include="Model\Factory\CDictIdValue.cs" />
+    <Compile Include="Model\Filter\CDictIdValue.cs" />
+    <Compile Include="Model\Mixin\CDictIdValue.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Business\Aggregate\" />
-    <Folder Include="Business\DBContext\" />
-    <Folder Include="Business\Interface\" />
-    <Folder Include="Business\Rule\" />
-    <Folder Include="Model\Entity\" />
-    <Folder Include="Model\Factory\" />
-    <Folder Include="Model\Filter\" />
-    <Folder Include="Model\Mixin\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
